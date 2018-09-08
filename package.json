@@ -4,19 +4,36 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "dev": "node_modules/.bin/react-devtools.cmd"
   },
   "dependencies": {
     "aws-amplify": "^1.0.8",
     "aws-amplify-react-native": "^2.0.0",
     "react": "16.4.1",
-    "react-native": "0.56.0"
+    "react-native": "0.55.4",
+    "react-navigation": "^2.12.1",
+    "react-redux": "^5.0.7",
+    "recompact": "^3.4.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^3.0.1"
   },
   "devDependencies": {
     "babel-jest": "23.4.2",
-    "babel-preset-react-native": "5.0.2",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react-native": "^3.2.1",
     "jest": "23.5.0",
-    "react-test-renderer": "16.4.1"
+    "react-devtools": "^3.3.2",
+    "react-test-renderer": "16.4.1",
+    "redux-logger": "^3.0.6",
+    "remote-redux-devtools": "^0.5.13"
   },
   "jest": {
     "preset": "react-native"
