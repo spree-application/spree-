@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import entity1reducer from './ducks/entity1/reducer';
+import entity1 from './ducks/entity1/reducer';
+import common from './ducks/common/reducer';
 
 export default combineReducers({
-  entity1reducer
+  common,
+  entity1
 });
